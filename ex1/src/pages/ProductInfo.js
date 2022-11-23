@@ -10,7 +10,15 @@ function ProductInfo(products) {
       item = products.products[i];
     }
   }
-  return <label>{item.description}</label>;
+  return (
+    <div>
+      <img src={item.imgsrc} alt="" className="ImgProductInfo"></img>
+      <br></br>
+      <label>Product Name:&nbsp;{item.title}</label>
+      <br></br>
+      <label>Description:&nbsp;{item.description}</label>
+    </div>
+  );
 }
 
 export default ProductInfo;
