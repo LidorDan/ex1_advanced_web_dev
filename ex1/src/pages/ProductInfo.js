@@ -11,12 +11,14 @@ function ProductInfo(products) {
     }
   }
   return (
-    <div>
-      <img src={item.imgsrc} alt="" className="ImgProductInfo"></img>
+    <div className="ProductInfo">
+      <label className="Product_description"><u>Description:</u>&nbsp;{item.description}</label>
       <br></br>
-      <label>Product Name:&nbsp;{item.title}</label>
       <br></br>
-      <label>Description:&nbsp;{item.description}</label>
+      <img src={item.imgsrc2} alt="" className="ImgProductInfo"></img>
+      <br></br>
+      <br></br>
+      <label className="Product_store"><u>Where to buy :</u>&nbsp;{item.store}</label>
     </div>
   );
 }

@@ -10,8 +10,10 @@ function ProductsPage(products) {
           id={item.id}
           title={item.title}
           price={item.price}
-          imgsrc={item.imgsrc}
+          imgsrc1={item.imgsrc1}
+          imgsrc2={item.imgsrc2}
           description={item.description}
+          store={item.store}
         ></Product>
       ))}
     </div>
