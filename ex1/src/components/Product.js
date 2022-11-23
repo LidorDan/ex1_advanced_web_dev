@@ -7,7 +7,7 @@ function Product(prod) {
         <br></br>
         <label className="Product_price">Price: {prod.price} $</label>
       </div>
-      <a className="LinkToDEscription" href={"/ProductInfo?id=" + prod.id}>
+      <a className="LinkToDEscription" href={"/ProductInfo/" + prod.id}>
         Description
       </a>
       <img src={prod.imgsrc} className="Product_image" alt="" />
