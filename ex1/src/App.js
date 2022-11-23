@@ -21,7 +21,7 @@ function App() {
       imgsrc1: "../Images/img2.png",
       imgsrc2: "../Images/secImg2/png",
       description: "White bread",
-      store:"Hatzi Hinam ,",
+      store:"Hatzi Hinam ,Moshe Levi 8 - Rishon Lezion",
     },
     {
       id: "3",
@@ -30,7 +30,7 @@ function App() {
       imgsrc1: "../Images/img3.png",
       imgsrc2: "../Images/secImg3/png",
       description: "Yellow cheese",
-      store:"Shufersal",
+      store:"Shufersal ,Igal Alon 76 - Tel Aviv",
     },
     {
       id: "4",
@@ -39,6 +39,7 @@ function App() {
       imgsrc1: "../Images/img4.png",
       imgsrc2: "../Images/secImg4/png",
       description: "Organic apple",
+      store:"Rami Levi ,Hakishon 9 - Yavne",
     },
     {
       id: "5",
@@ -47,6 +48,7 @@ function App() {
       imgsrc1: "../Images/img5.png",
       imgsrc2: "../Images/secImg5/png",
       description: "Organic tomato",
+      store:"Hatzi Hinam ,HaMerkava 31 - Holon",
     },
     {
       id: "6",
@@ -55,6 +57,7 @@ function App() {
       imgsrc1: "../Images/img6.png",
       imgsrc2: "../Images/secImg6/png",
       description: "Organic avocado",
+      store:"Osher Ad ,Bar Yehuda 31 - Haifa",
     },
     {
       id: "7",
@@ -63,6 +66,7 @@ function App() {
       imgsrc1: "../Images/img7.png",
       imgsrc2: "../Images/secImg7/png",
       description: "description",
+      store:"Shufersal ,David Remez 39 - Ashkelon",
     },
   ];
   return (
