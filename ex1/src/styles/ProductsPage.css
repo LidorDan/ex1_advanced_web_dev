@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
 .pageTitle {
+    margin-top: 10px;
+    margin-bottom: 35px;
     font-family: 'Fjalla One', sans-serif;
     text-align: center;
     font-size: 35px;
