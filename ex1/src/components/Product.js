@@ -6,11 +6,9 @@ function Product(prod) {
         <label className="Product_name "> {prod.title} </label>
         <br></br>
         <label className="Product_price">Price: {prod.price} $</label>
-      </div>
-      <a className="LinkToDescription" href={"/ProductInfo/" + prod.id}>
-        Description
-      </a>
-      <img src={prod.imgsrc1} className="Product_image" alt="" />
+        </div>
+        <a className="LinkToDescription" href={"/ProductInfo/" + prod.id}>Description</a>
+        <img src={prod.imgsrc1} className="Product_image" alt="" />
     </div>
   );
 }

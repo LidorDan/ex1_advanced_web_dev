@@ -21,7 +21,7 @@ function App() {
       imgsrc1: "../Images/img2.png",
       imgsrc2: "../Images/secImg2.png",
       description: "White bread",
-      store:"Hatzi Hinam ,Moshe Levi 8 - Rishon Lezion",
+      store:"Hazi Hinam ,Moshe Levi 8 - Rishon Lezion",
     },
     {
       id: "3",
@@ -48,7 +48,7 @@ function App() {
       imgsrc1: "../Images/img5.png",
       imgsrc2: "../Images/secImg5.png",
       description: "Organic tomato",
-      store:"Hatzi Hinam ,HaMerkava 31 - Holon",
+      store:"Hazi Hinam ,HaMerkava 31 - Holon",
     },
     {
       id: "6",
