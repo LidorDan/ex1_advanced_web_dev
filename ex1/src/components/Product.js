@@ -1,5 +1,5 @@
 import "../styles/ProductInfo.css";
-import "../styles/Product.css";
+import "../styles/Popup.css";
 
 import "../pages/ProductInfo"
 import ProductInfo from "../pages/ProductInfo";
@@ -13,7 +13,7 @@ function Product(prod) {
   return (
     <div className="Product">
       <div className="ProductDetailsDiv">
-        <label className="Product_name "> {prod.title} </label>K
+        <label className="Product_name "> {prod.title} </label>
         <br></br>
         <label className="Product_price">Price: {prod.price} $</label>
         
